@@ -1,0 +1,85 @@
+.img-inicio {
+    max-width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.pagina-inicio {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-inicio {
+    width: 25rem;
+    position: absolute;
+    margin-bottom: 12rem;
+
+}
+
+.contenedorh1 {
+    position: absolute;
+    width: 50%;
+}
+
+.fondo-contenedor {
+    width: 100%;
+    height: 100%;
+    background-color: $color-secundario;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.8;
+    border-radius: 60px;
+
+}
+
+.titulo-inicio {
+    font-family: $tipografia-principal;
+    color: $color-principal;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    padding-top: 0.4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: block;
+}
+
+.custom-button {
+    position: absolute;
+    margin-top: 15rem;
+    gap: 1.5rem !important;
+}
+
+.boton1 {
+    background-color: $color-principal ;
+    border-color:  $color-principal;
+    color: $color-secundario;
+    border-radius: 60px;
+    font-family: $tipografia-principal;
+    padding: 0.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    &:hover {
+        background-color:  #023329 !important;
+        border-color: #023329 !important;
+    }
+}
+
+.boton2 {
+    background-color: #eeeded;
+    border-color: #eeeded;
+    color: $color-principal;
+    border-radius: 60px;
+    font-family: $tipografia-principal;
+
+    &:hover {
+        background-color: #ffffff !important;
+        border-color: #ffffff !important;
+        color: $color-principal;
+    }
+}

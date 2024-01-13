@@ -1,0 +1,32 @@
+.logo-pequeno {
+    width: 3rem;
+}
+
+.custom-navbar {
+    background-color: $color-terciario !important;
+}
+
+.navbar-toggler {
+    color: $color-secundario;
+    border-color: $color-secundario;
+}
+
+.navbar-collapse{
+    color: $color-secundario;
+}
+
+.menu-expandible {
+    width: 1.5rem;
+}
+
+.nav-link {
+    color: $color-secundario !important;
+}
+
+header {
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 4;
+font-family: $tipografia-principal;
+}
