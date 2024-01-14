@@ -1,9 +1,31 @@
 .logo-pequeno {
     width: 3rem;
+
+    @media(min-width: 992px) {
+        display: none;
+    }
+}
+
+.logo-grande {
+    width: 12rem;
+
+    @media(max-width: 991px) {
+        display: none;
+    }
 }
 
 .custom-navbar {
     background-color: $color-terciario !important;
+}
+
+.justify-content-center {
+    gap: 12rem;
+
+}
+
+.nav-item {
+    display: flex;
+    font-size: 1.1rem;
 }
 
 .navbar-toggler {
@@ -28,5 +50,5 @@ position: fixed;
 top: 0;
 width: 100%;
 z-index: 4;
-font-family: $tipografia-principal;
+font-family: $tipografia-principal;  
 }
