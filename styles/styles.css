@@ -81,6 +81,14 @@ footer {
   margin-top: 1rem;
 }
 
+@media (max-width: 500px) {
+  .cambio-de-linea {
+    align-items: center;
+    white-space: pre-line;
+    display: block;
+  }
+}
+
 .logo-footer {
   width: 14rem;
   margin-top: 0.8rem;
@@ -154,6 +162,11 @@ footer {
 .contenedorh1 {
   position: absolute;
   width: 50%;
+}
+@media (max-width: 570px) {
+  .contenedorh1 {
+    margin: 1rem 0rem 1rem 0rem;
+  }
 }
 
 .fondo-contenedor {
