@@ -166,13 +166,13 @@
     color: $color-secundario;
 }
 
-.contenedor-imagen-producto {
+.contenedor-imagen-producto1 {
     display: flex;
     justify-content: center;
     align-items: center;
     max-height: 230px;
     flex: 1 1 0%;
-    background-image: url(../img/producto1.png);
+    background-image: url(../img/producto5.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
@@ -222,3 +222,70 @@
     font-size: 1rem;
     font-weight: 500;
 }
+
+.contenedor-imagen-producto2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 230px;
+    flex: 1 1 0%;
+    background-image: url(../img/producto4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin-bottom: 3.5rem;
+}
+
+.contenedor-imagen-producto3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 230px;
+    flex: 1 1 0%;
+    background-image: url(../img/producto11.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin-bottom: 3.5rem;
+}
+
+.contenedor-imagen-producto4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 230px;
+    flex: 1 1 0%;
+    background-image: url(../img/producto10.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin-bottom: 3.5rem;
+}
+
+.contenedor-imagen-producto5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 230px;
+    flex: 1 1 0%;
+    background-image: url(../img/producto2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin-bottom: 3.5rem;
+}
+
+.contenedor-imagen-producto6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 230px;
+    flex: 1 1 0%;
+    background-image: url(../img/producto13.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin-bottom: 3.5rem;
+}
+
+
