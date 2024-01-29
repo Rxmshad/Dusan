@@ -1112,7 +1112,7 @@ form {
   gap: 0.5rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
   padding-top: 1rem;
@@ -1124,8 +1124,9 @@ form {
 .texto-catalogo {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: start;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .catalogo {
@@ -1136,6 +1137,7 @@ form {
   letter-spacing: -0.01562em;
   color: #044d3e;
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 .contenedor-cajas-catalogo {
@@ -1158,19 +1160,17 @@ form {
 .tipo-caja-catalogo {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 .parrafo-tipo-caja {
   margin: 0px;
   line-height: 1.5;
-  letter-spacing: 0.00938em;
   color: #044d3e;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   font-weight: 500;
-  margin-left: 2rem;
 }
 
 .titulo-caja-catalogo {
@@ -1178,10 +1178,9 @@ form {
   font-weight: 800;
   font-size: 0.9rem;
   line-height: 1.5;
-  letter-spacing: 0.00938em;
   color: #191919;
   font-family: "Montserrat", sans-serif;
-  margin-left: 1.7rem;
+  text-align: center;
 }
 
 .imagen-producto {
